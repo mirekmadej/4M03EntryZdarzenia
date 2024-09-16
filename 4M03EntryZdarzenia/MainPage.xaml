@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M03EntryZdarzenia.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="zdarzenie Completed"
+                />
+            <Entry
+                Placeholder="wpisz tekst i pacnij enter"
+                Completed="onEntry1Completed"
+                x:Name="entE1"
+                />
+            <Label
+                Text="test działania Completed"
+                x:Name="lblE1"
+                />
+            <Label
+                Text="zdarzenie TextChanged"
+                />
+            <Entry
+                Placeholder="wpisz tekst i pacnij enter"
+                TextChanged="onEntry2TextChanged"
+                x:Name="entE2"
+                />
+            <Label
+                Text="test działania TextChanged"
+                x:Name="lblE2"
+                />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
